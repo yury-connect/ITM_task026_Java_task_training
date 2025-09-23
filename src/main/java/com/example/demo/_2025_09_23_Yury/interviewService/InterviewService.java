@@ -1,4 +1,4 @@
-package com.example.demo.yury_2025_09_23.bankomat;
+package com.example.demo._2025_09_23_Yury.interviewService;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.ResponseEntity;

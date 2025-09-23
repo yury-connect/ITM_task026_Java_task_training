@@ -1,4 +1,4 @@
-package com.example.demo.yury_2025_09_23.bankomat;
+package com.example.demo._2025_09_23_Yury.sql;
 
 /*
 Рассмотрим таблицу employees, в которой содержится информация о сотрудниках и языках программирования, которыми они владеют:
