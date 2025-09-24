@@ -1,4 +1,4 @@
-package com.example.demo._2025_09_23_Yury.bankomat;
+package com.example.demo._2025_09_23_Yury_wildberries.bankomat.task;
 
 /**
  * Интерфейс для взаимодействия с аппаратной частью банкомата.

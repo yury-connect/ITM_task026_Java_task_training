@@ -1,4 +1,4 @@
-package com.example.demo._2025_09_23_Yury.sql;
+package com.example.demo._2025_09_23_Yury_wildberries.sql;
 
 /*
 Рассмотрим таблицу employees, в которой содержится информация о сотрудниках и языках программирования, которыми они владеют:
