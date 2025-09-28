@@ -1,4 +1,4 @@
-package com.example.demo._2025_09_23_Yury_wildberries.bankomat.solution;
+package com.example.demo._2025_09_23_Yury_Wildberries.bankomat.solution;
 
 import java.util.Arrays;
 import java.util.Scanner;
