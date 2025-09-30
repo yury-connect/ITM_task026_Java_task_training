@@ -1,7 +1,7 @@
 package com.example.demo._2024_07_04_Yury_Senla.task3;
 
-import task3.com.senlainc.gomelCourses.wordComparators.LengthInc;
-import task3.com.senlainc.gomelCourses.сonstants.Constants;
+import com.example.demo._2024_07_04_Yury_Senla.task3.com.senlainc.courses.wordComparators.LengthInc;
+import com.example.demo._2024_07_04_Yury_Senla.task3.com.senlainc.courses.сonstants.Constants;
 
 import java.util.Arrays;
 import java.util.Comparator;

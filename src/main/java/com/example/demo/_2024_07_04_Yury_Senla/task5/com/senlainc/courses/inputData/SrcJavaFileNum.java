@@ -1,6 +1,6 @@
 package com.example.demo._2024_07_04_Yury_Senla.task5.com.senlainc.courses.inputData;
 
-import task5.com.senlainc.gomelCourses.interfaces.ImplInputData;
+import com.example.demo._2024_07_04_Yury_Senla.task5.com.senlainc.courses.interfaces.ImplInputData;
 
 
 public class SrcJavaFileNum implements ImplInputData {
