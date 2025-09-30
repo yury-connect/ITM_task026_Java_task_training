@@ -1,9 +1,9 @@
-package task2;
+package com.example.demo._2024_07_04_Yury_Senla.task2;
 
-import task2.com.senlainc.gomelCourses.constants.Constants;
-import task2.com.senlainc.gomelCourses.interfaces.ImplIoProcessor;
-import task2.com.senlainc.gomelCourses.ioProcessors.ConsoleProcessor;
-import task2.com.senlainc.gomelCourses.logic.ArithmeticProcessor;
+import com.example.demo._2024_07_04_Yury_Senla.task2.com.senlainc.courses.constants.Constants;
+import com.example.demo._2024_07_04_Yury_Senla.task2.com.senlainc.courses.interfaces.ImplIoProcessor;
+import com.example.demo._2024_07_04_Yury_Senla.task2.com.senlainc.courses.ioProcessors.ConsoleProcessor;
+import com.example.demo._2024_07_04_Yury_Senla.task2.com.senlainc.courses.logic.ArithmeticProcessor;
 
 import java.util.InputMismatchException;
 

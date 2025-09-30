@@ -1,4 +1,4 @@
-package task2.com.senlainc.gomelCourses.logic;
+package com.example.demo._2024_07_04_Yury_Senla.task2.com.senlainc.courses.logic;
 
 
 public final class ArithmeticProcessor {

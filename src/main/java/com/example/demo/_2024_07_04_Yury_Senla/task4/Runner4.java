@@ -1,8 +1,8 @@
-package task4;
+package com.example.demo._2024_07_04_Yury_Senla.task4;
 
-import task4.com.senlainc.gomelCourses.interfaces.ImplIoProcessor;
-import task4.com.senlainc.gomelCourses.ioProcessors.ConsoleProcessor;
-import task4.com.senlainc.gomelCourses.constants.Constants;
+import com.example.demo._2024_07_04_Yury_Senla.task4.com.senlainc.courses.interfaces.ImplIoProcessor;
+import com.example.demo._2024_07_04_Yury_Senla.task4.com.senlainc.courses.ioProcessors.ConsoleProcessor;
+import com.example.demo._2024_07_04_Yury_Senla.task4.com.senlainc.courses.constants.Constants;
 
 
 /**

@@ -1,4 +1,4 @@
-package task5.com.senlainc.gomelCourses.inputData;
+package com.example.demo._2024_07_04_Yury_Senla.task5.com.senlainc.courses.inputData;
 
 import task5.com.senlainc.gomelCourses.interfaces.ImplInputData;
 

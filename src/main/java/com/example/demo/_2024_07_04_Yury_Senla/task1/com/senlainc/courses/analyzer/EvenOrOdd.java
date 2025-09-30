@@ -1,7 +1,7 @@
-package task1.com.senlainc.gomelCourses.analyzer;
+package com.example.demo._2024_07_04_Yury_Senla.task1.com.senlainc.courses.analyzer;
 
-import task1.com.senlainc.gomelCourses.interfaces.ImplAnalyzer;
-import task1.com.senlainc.gomelCourses.сonstants.Constants;
+import com.example.demo._2024_07_04_Yury_Senla.task1.com.senlainc.courses.interfaces.ImplAnalyzer;
+import com.example.demo._2024_07_04_Yury_Senla.task1.com.senlainc.courses.сonstants.Constants;
 
 
 public final class EvenOrOdd implements ImplAnalyzer {

@@ -1,7 +1,7 @@
-package task5.com.senlainc.gomelCourses.inputData;
+package com.example.demo._2024_07_04_Yury_Senla.task5.com.senlainc.courses.inputData;
 
-import task5.com.senlainc.gomelCourses.constants.Constants;
-import task5.com.senlainc.gomelCourses.interfaces.ImplInputData;
+import com.example.demo._2024_07_04_Yury_Senla.task5.com.senlainc.courses.constants.Constants;
+import com.example.demo._2024_07_04_Yury_Senla.task5.com.senlainc.courses.interfaces.ImplInputData;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Locale;

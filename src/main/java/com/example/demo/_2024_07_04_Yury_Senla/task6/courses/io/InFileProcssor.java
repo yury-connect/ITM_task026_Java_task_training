@@ -1,6 +1,6 @@
-package task6.gomelCourses.io;
+package com.example.demo._2024_07_04_Yury_Senla.task6.courses.io;
 
-import task6.gomelCourses.beans.*;
+import com.example.demo._2024_07_04_Yury_Senla.task6.courses.beans.*;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;

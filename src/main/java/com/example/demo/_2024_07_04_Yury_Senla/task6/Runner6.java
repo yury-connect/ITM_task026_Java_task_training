@@ -1,7 +1,7 @@
-package task6;
+package com.example.demo._2024_07_04_Yury_Senla.task6;
 
-import task6.gomelCourses.beans.*;
-import task6.gomelCourses.io.*;
+import com.example.demo._2024_07_04_Yury_Senla.task6.courses.beans.*;
+import com.example.demo._2024_07_04_Yury_Senla.task6.courses.io.*;
 import java.util.List;
 
 

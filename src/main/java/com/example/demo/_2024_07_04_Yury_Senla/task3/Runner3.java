@@ -1,4 +1,4 @@
-package task3;
+package com.example.demo._2024_07_04_Yury_Senla.task3;
 
 import task3.com.senlainc.gomelCourses.wordComparators.LengthInc;
 import task3.com.senlainc.gomelCourses.сonstants.Constants;

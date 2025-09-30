@@ -1,8 +1,8 @@
-package task1;
+package com.example.demo._2024_07_04_Yury_Senla.task1;
 
-import task1.com.senlainc.gomelCourses.interfaces.ImplAnalyzer;
-import task1.com.senlainc.gomelCourses.analyzer.*;
-import task1.com.senlainc.gomelCourses.сonstants.Constants;
+import com.example.demo._2024_07_04_Yury_Senla.task1.com.senlainc.courses.interfaces.ImplAnalyzer;
+import com.example.demo._2024_07_04_Yury_Senla.task1.com.senlainc.courses.analyzer.*;
+import com.example.demo._2024_07_04_Yury_Senla.task1.com.senlainc.courses.сonstants.Constants;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

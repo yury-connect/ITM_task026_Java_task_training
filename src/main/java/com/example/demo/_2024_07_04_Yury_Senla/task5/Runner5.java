@@ -1,9 +1,9 @@
-package task5;
+package com.example.demo._2024_07_04_Yury_Senla.task5;
 
-import task5.com.senlainc.gomelCourses.constants.Constants;
-import task5.com.senlainc.gomelCourses.inputData.*;
-import task5.com.senlainc.gomelCourses.interfaces.*;
-import task5.com.senlainc.gomelCourses.ioProcessors.*;
+import com.example.demo._2024_07_04_Yury_Senla.task5.com.senlainc.courses.constants.Constants;
+import com.example.demo._2024_07_04_Yury_Senla.task5.com.senlainc.courses.inputData.*;
+import com.example.demo._2024_07_04_Yury_Senla.task5.com.senlainc.courses.interfaces.*;
+import com.example.demo._2024_07_04_Yury_Senla.task5.com.senlainc.courses.ioProcessors.*;
 import java.util.Arrays;
 
 

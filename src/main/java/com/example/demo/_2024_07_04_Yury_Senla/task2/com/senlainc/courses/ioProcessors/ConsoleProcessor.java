@@ -1,6 +1,6 @@
-package task2.com.senlainc.gomelCourses.ioProcessors;
+package com.example.demo._2024_07_04_Yury_Senla.task2.com.senlainc.courses.ioProcessors;
 
-import task2.com.senlainc.gomelCourses.interfaces.ImplIoProcessor;
+import com.example.demo._2024_07_04_Yury_Senla.task2.com.senlainc.courses.interfaces.ImplIoProcessor;
 import java.util.Scanner;
 
 

@@ -1,4 +1,4 @@
-package task1.com.senlainc.gomelCourses.сonstants;
+package com.example.demo._2024_07_04_Yury_Senla.task1.com.senlainc.courses.сonstants;
 
 public final class Constants {
 
