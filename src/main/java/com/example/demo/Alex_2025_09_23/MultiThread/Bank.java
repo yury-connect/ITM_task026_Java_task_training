@@ -34,45 +34,53 @@ public class Bank {
         boolean success = false;
         int[] currentIssued = new int[nominals.length];
         int take = originalTake;
-
+        int[] currentQuantity = quontityNominals.clone();
 
         for (int j = 0; j < nominals.length; j++) {
 
-            System.out.println("j= " + j);
+//            System.out.println("j= " + j);
+//
+//            System.out.println("take= " + take);
 
-            System.out.println("take= " + take);
 
 
-            int[] currentQuantity = quontityNominals.clone();
             originalTake = take;
 
             for (int i = j; i < nominals.length; i++) {
                 while (take >= nominals[i] && currentQuantity[i] > 0) {
                     take -= nominals[i];
-                    quontityNominals[i]--;
+                    currentQuantity[i]--;
                     currentIssued[i]++;
                 }
-                System.out.println(Arrays.toString(currentIssued));
+            //    System.out.println(Arrays.toString(currentIssued));
 
             }
+
             int x = currentIssued[j] - 1;
-            System.out.println("После внутреннего цикла " + x);
+        //    System.out.println("После внутреннего цикла " + x);
 
             if (take == 0) {
 
                 quontityNominals = currentQuantity;
                 issuedNominals = currentIssued;
                 success = true;
-                System.out.println("Успех с j = " + j);
+            //    System.out.println("Успех с j = " + j);
                 break;
             } else {
-                currentIssued[j] = x;
+                if(x>0) {
+                    currentIssued[j] = x;
+                } else {
+                    currentIssued[j] = 0;
+                }
                 for (int k = j + 1; k < nominals.length; k++) {
                     currentIssued[k] = 0;
                 }
+                for (int i = 0; i < nominals.length; i++) {
+                    currentQuantity[j]=quontityNominals[j]-currentIssued[j];
+                }
                 take = originalTake - currentIssued[j] * nominals[j];
-                System.out.println(Arrays.toString(currentIssued));
-                System.out.println(take);
+              //  System.out.println(Arrays.toString(currentIssued));
+               // System.out.println(take);
             }
         }
 
@@ -83,7 +91,11 @@ public class Bank {
 
 
         for (int i = 0; i < nominals.length; i++) {
-            System.out.println("Выдано " + nominals[i] + "  " + issuedNominals[i]);
+            System.out.println("Выдано " + nominals[i] + "  " + issuedNominals[i] + "  " + "шт");
+        }
+
+        for (int i = 0; i < issuedNominals.length; i++) {
+            System.out.println("Осталось номиналов " + nominals[i]+ "  " + quontityNominals[i]+ "  " + "шт");
         }
 
         return issuedNominals;
